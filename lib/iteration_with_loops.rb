@@ -7,7 +7,8 @@ def join_nested_strings(src)
     element_index = 0
 
     while element_index < src[row_index].length do
-      mixed_data += src[row_index][element_index].to_s
+      if 
+      mixed_data += src[row_index][element_index].to_s.join('')
       element_index += 1
     end
     row_index += 1
