@@ -8,7 +8,7 @@ def join_nested_strings(src)
     src[element_index].to_s
     while element_index < src[row_index].length do
       if src[row_index][element_index].class == String
-      mixed_data << src[row_index][element_index].to_s
+      mixed_data << src[row_index][element_index]
       end
       element_index += 1
     end
