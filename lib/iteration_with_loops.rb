@@ -15,7 +15,7 @@ def join_nested_strings(src)
   end
   #mixed_data = mixed_data.join(' ')
   mixed_data = mixed_data.join(' ')
-  mixed_data.delete_at()
+  mixed_data.delete_at(4, -1, 30, 101, 233)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
 end
